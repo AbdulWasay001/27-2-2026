@@ -1,0 +1,57 @@
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+#main{
+    background-color: rgb(13, 1, 76);
+}
+a{
+    color: aliceblue;
+}
+
+#header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    color: grey;
+}
+#hero{
+    color: rgb(180, 180, 181);
+    padding: 10%;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: rgb(205, 31, 0);
+}
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.features {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.box img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.box h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.box p {
+  font-size: 13px;
+  color: gray;
+}
